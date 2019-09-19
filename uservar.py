@@ -11,19 +11,19 @@ ART            = os.path.join(PATH, 'resources', 'art')
 ### User Edit Variables #################################
 #########################################################
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
-ADDONTITLE     = '[B][COLOR dodgerblue]Aftermath[/COLOR][/B] Wizard'
+ADDONTITLE     = '[B][COLOR orange]Scooby Snacks[/COLOR][/B]'
 BUILDERNAME    = 'Aftermath'
 EXCLUDES       = [ADDON_ID, 'repository.aftermath']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
 CACHETEXT      = 'Yes'
 CACHEAGE       = 30
 # Text File with build info in it.
-BUILDFILE      = 'http://'
+BUILDFILE      = 'http://smoke-n-streamz.tk/store/build.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
 # Text File with apk info in it.  Leave as 'http://' to ignore
-APKFILE        = 'http://'
+APKFILE        = 'http://smoke-n-streamz.tk/store/apks.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = ''
 YOUTUBEFILE    = 'http://'
@@ -64,7 +64,7 @@ SPACER         = '='
 COLOR1         = 'dodgerblue'
 COLOR2         = 'white'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Aftermath[/COLOR])[/I][/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
+THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Scooby Snacks[/COLOR])[/I][/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.aftermath" name="[B][COLOR dodgerblue]Aftermath[/COLOR][/B] Wizard" version="0.5.0" provider-name="drinfernoo">
+<addon id="plugin.program.scoobysnacks" name="[B][COLOR orange]Scooby Snacks.[/COLOR][/B] Wizard" version="1.5.0" provider-name="Team Smoke-N-Streamz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,8 +8,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR dodgerblue]Aftermath[/COLOR][/B] Wizard</summary>
-    <description lang="en">[B][COLOR dodgerblue]Aftermath[/COLOR][/B] Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+    <summary lang="en">[B][COLOR orange]Scooby Snacks Store.[/COLOR][/B] </summary>
+    <description lang="en">[B][COLOR orange]Scooby Snacks [/B] offers a one stop shop for all APKS from Team Smoke-N-Streamz[/COLOR] </description>
     <platform>all</platform>
   </extension>
 </addon>
